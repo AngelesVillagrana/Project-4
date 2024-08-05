@@ -35,50 +35,30 @@ It can be found on Kaggle: [Predicting Credit Card Customer Segmentation](https:
 
 The jupyter notebook used called `PCA.ipynb` outlines the data analysis project using Principal Component Analysis (PCA) and clustering. Below, you will find a step by step explanation of what the data model does.
 
-### 1. Importing Libraries
+**1. Importing Libraries:** The model begins by importing necessary libraries such as: `pandas`, `StandardScaler`, `KMeans`, `matplotlib.pyplot`, `PCA`, `sqlalchemy`, `hvplot.pandas`, `URL` and `calinski_harabasz_score`.
 
-The model begins by importing necessary libraries such as: `pandas`, `StandardScaler`, `KMeans`, `matplotlib.pyplot`, `PCA`, `sqlalchemy`, `hvplot.pandas`, `URL` and `calinski_harabasz_score`.
+**2. Connecting to the Database:** The code connects to a PostgreSQL database using SQLAlchemy and fetches data from a table called `bank_customers`.
 
-### 2. Connecting to the Database
+**3. Cleaning the Data:** Rows with unknown values in the `income_category` column are dropped.
 
-The code connects to a PostgreSQL database using SQLAlchemy and fetches data from a table called `bank_customers`.
+**4. Descriptive Statistics:** The code describes the dataset and its categorical columns.
 
-### 3. Cleaning the Data
+**5. Filtering Relevant Columns:** The project filters out only the relevant columns for the marketing campaign.
 
-Rows with unknown values in the `income_category` column are dropped.
-
-### 4. Descriptive Statistics
-
-The code describes the dataset and its categorical columns.
-
-### 5. Filtering Relevant Columns
-
-The project filters out only the relevant columns for the marketing campaign.
-
-### 6. Data Preprocessing
+**6. Data Preprocessing:**
 
 - The gender column is mapped to numerical values (0 for female, 1 for male).
 - The income vategory is also mapped to numerical values.
 - The data is standarized using `StandardScaler`.
 
-### 7. Principal Component Analysis (PCA)
+**7. Principal Component Analysis (PCA):** PCA is applied to reduce the dimensionality of the dataset.
 
-PCA is applied to reduce the dimensionality of the dataset.
+**8. Clustering:** KMeans clustering is performed to segment the data into 4 clusters.
 
-### 8. Clustering
+**9. Visualization:** The clusters are visualized using a scatter plot.
 
-KMeans clustering is performed to segment the data into 4 clusters.
+**10. Evaluating Clusters:** The quality of the clusters is evaluated using the Calinski-Harabasz score.
 
-### 9. Visualization
-
-The clusters are visualized using a scatter plot.
-
-### 10. Evaluating Clusters
-
-The quality of the clusters is evaluated using the Calinski-Harabasz score.
-
-### 11. Cluster Analysis
-
-The data is grouped by clusters and summarized for each cluster.
+**11. Cluster Analysis:** The data is grouped by clusters and summarized for each cluster.
 
 In summary, this project fetches customer data from a database, cleans and preprocesses it, reduces its dimensionality using PCA, segments it into clusters using KMeans, and evaluates the quality of these clusters. Finally, it analyzes and describes each cluster in detail.
