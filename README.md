@@ -29,6 +29,8 @@ The dataset called `BankChurners.csv` contains comprehensive customer informatio
 
 The dataset provides up-to-date information across multiple variables, aiding in the management of the portfolio and individual customer service by predicting long-term account stability or potential departure.
 
+It can be found on Kaggle: [Predicting Credit Card Customer Segmentation](https://www.kaggle.com/datasets/thedevastator/predicting-credit-card-customer-attrition-with-m)
+
 ## Step By Step Explanation
 
 The jupyter notebook used called `PCA.ipynb` outlines the data analysis project using Principal Component Analysis (PCA) and clustering. Below, you will find a step by step explanation of what the data model does.
@@ -80,4 +82,6 @@ The quality of the clusters is evaluated using the Calinski-Harabasz score.
 The data is grouped by clusters and summarized for each cluster.
 
 In summary, this project fetches customer data from a database, cleans and preprocesses it, reduces its dimensionality using PCA, segments it into clusters using KMeans, and evaluates the quality of these clusters. Finally, it analyzes and describes each cluster in detail.
+
+## Dataset Information
 
