@@ -82,6 +82,3 @@ The quality of the clusters is evaluated using the Calinski-Harabasz score.
 The data is grouped by clusters and summarized for each cluster.
 
 In summary, this project fetches customer data from a database, cleans and preprocesses it, reduces its dimensionality using PCA, segments it into clusters using KMeans, and evaluates the quality of these clusters. Finally, it analyzes and describes each cluster in detail.
-
-## Dataset Information
-
