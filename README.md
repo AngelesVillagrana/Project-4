@@ -33,7 +33,7 @@ It can be found on Kaggle: [Predicting Credit Card Customer Segmentation](https:
 
 ## Step By Step Explanation
 
-The jupyter notebook used called `PCA.ipynb` outlines the data analysis project using Principal Component Analysis (PCA) and clustering. Below, you will find a step by step explanation of what the data model does.
+The jupyter notebook used called `Kmeans.ipynb` outlines the data analysis project using Principal Component Analysis (PCA) and clustering. Below, you will find a step by step explanation of what the data model does.
 
 **1. Importing Libraries:** The model begins by importing necessary libraries such as: `pandas`, `StandardScaler`, `KMeans`, `matplotlib.pyplot`, `PCA`, `sqlalchemy`, `hvplot.pandas`, `URL` and `calinski_harabasz_score`.
 
