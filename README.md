@@ -29,3 +29,17 @@ The dataset called `BankChurners.csv` contains comprehensive customer informatio
 
 The dataset provides up-to-date information across multiple variables, aiding in the management of the portfolio and individual customer service by predicting long-term account stability or potential departure.
 
+## Step By Step Explanation
+
+The jupyter notebook used called `PCA.ipynb` outlines the data analysis project using Principal Component Analysis (PCA) and clustering. Below, you will find a step by step explanation of what the data model does.
+
+### 1. Importing Libraries
+
+The model begins by importing necessary libraries such as: `pandas`, `StandardScaler`, `KMeans`, `matplotlib.pyplot`, `PCA`, `sqlalchemy`, `hvplot.pandas`, `URL` and `calinski_harabasz_score`.
+
+### 2. Connecting to the Database
+
+The code connects to a PostgreSQL database using SQLAlchemy and fetches data from a table called `bank_customers`.
+
+
+
