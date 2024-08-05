@@ -65,6 +65,6 @@ In summary, this project fetches customer data from a database, cleans and prepr
 
 ## Tableau Dashboard
 
-In order to present the data we found, we built a dashboard which you can see here: [Presenting_Dataset](https://public.tableau.com/app/profile/kevin.dorado/viz/Presenting_Dataset/Presentingthedata?publish=yes)
+In order to better present the customer insights we found about demographic variables and credit information, we built a dashboard using Tableau which you can see published here: [Presenting_Dataset](https://public.tableau.com/app/profile/kevin.dorado/viz/Presenting_Dataset/Presentingthedata?publish=yes)
 
 ## Results
