@@ -18,3 +18,14 @@ This project involves the implementation, training, and evaluation of a data mod
 - **Optimization Process**: The iterative changes made to the model and their impact on performance are documented within the Python script.
 - **Performance Display**: The overall model performance is printed or displayed at the end of the script.
 
+## About The Dataset
+
+The dataset called `BankChurners.csv` contains comprehensive customer information from a consumer credit card portfolio, aimed at predicting customer attrition. It includes:
+
+1. **Demographics:** Age, gender, marital status, income category.
+2. **Credit Card Relationship:** Card type, number of months on book, inactive periods.
+3. **Spending Behavior:** Total revolving balance, credit limit, average open-to-buy rate.
+4. **Analytical Metrics:** Total amount of change from Q4 to Q1, average utilization ratio, Naive Bayes classifier attrition flag, combined card category with contact count over 12 months, dependent count, education level, months inactive.
+
+The dataset provides up-to-date information across multiple variables, aiding in the management of the portfolio and individual customer service by predicting long-term account stability or potential departure.
+
