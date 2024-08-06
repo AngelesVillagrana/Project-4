@@ -70,3 +70,71 @@ In order to better present the customer insights we found about demographic vari
 And bank customers behaviors here: [Bank customer behaviors](https://public.tableau.com/app/profile/angeles.villagrana/viz/Bank_customers_17229080548870/Resume)
 
 ## Results
+
+#### Cluster 0
+- **Age**:
+  - Customers in the highest income category (`$120K+`) have ages ranging from 26 to 62, with an average age of about 48.
+  - Customers in the lowest income category (`Less than $40K`) have an age of 60.
+- **Credit Limit**:
+  - Higher income categories generally have higher average credit limits. For example, customers in the `$120K+` category have an average credit limit of around $23,298, while those in the `$40K - $60K` category have an average of about $14,493.
+- **Utilization Ratio**:
+  - Utilization ratios are relatively low across all categories, with a mean value below 0.1 in each group.
+- **Total Revolving Balance**:
+  - There is a wide range in total revolving balances, with the highest being over $2,500 for some income categories and $0 for others.
+
+#### Cluster 1
+- **Age**:
+  - Customers in the `$40K - $60K` income category have ages ranging from 26 to 65, with an average age of about 47 for females and 57 for males.
+  - Customers in the `Less than $40K` income category have ages ranging from 26 to 67, with an average age of about 46 for females and 52 for males.
+
+- **Credit Limit**:
+  - Credit limits vary significantly within the `$40K - $60K` category, with females having a maximum limit of approximately $15,698 and males about $3,506.
+  - In the `Less than $40K` category, credit limits for females reach up to $15,987, while for males, it is about $7,098.
+
+- **Utilization Ratio**:
+  - Utilization ratios are higher in this cluster compared to the first, with some customers having utilization ratios as high as 0.999.
+  - Mean utilization ratios are above 0.5 for females and above 0.6 for males in the `Less than $40K` category.
+
+- **Total Revolving Balance**:
+  - The total revolving balance is generally lower compared to the first cluster, with mean values around $1,690 for females and $1,675 for males in the `$40K - $60K` category.
+  - For the `Less than $40K` category, mean revolving balances are approximately $1,664 for females and $1,712 for males.
+
+#### Cluster 2
+- **Age**:
+  - Customers in the `$40K - $60K` income category have ages ranging from 26 to 65, with an average age of about 47.
+  - Customers in the `Less than $40K` income category have ages ranging from 26 to 67, with an average age of about 45.
+
+- **Credit Limit**:
+  - Credit limits vary significantly within the `$40K - $60K` category, with a maximum limit of approximately $23,981.
+  - In the `Less than $40K` category, credit limits reach up to $15,987.
+
+- **Utilization Ratio**:
+  - Utilization ratios are generally low in this cluster, with a maximum ratio of 0.468.
+  - Mean utilization ratios are below 0.1 for most categories, indicating low credit usage.
+
+- **Total Revolving Balance**:
+  - The total revolving balance is generally low in this cluster, with mean values around $360 for females in the `$40K - $60K` category.
+  - For the `Less than $40K` category, mean revolving balances are approximately $290.
+
+#### Cluster 3
+- **Age**:
+  - Customers in the `$120K+` income category have ages ranging from 27 to 61, with an average age of about 46.
+  - Customers in the `Less than $40K` income category have ages ranging from 38 to 55, with an average age of about 38.
+
+- **Credit Limit**:
+  - Credit limits vary significantly within the `$120K+` category, with a maximum limit of approximately $23,959.
+  - In the `Less than $40K` category, credit limits reach up to $15,210.
+
+- **Utilization Ratio**:
+  - Utilization ratios are generally higher in this cluster, with a maximum ratio of 0.994.
+  - Mean utilization ratios range from about 0.12 to 0.39 across different income categories.
+
+- **Total Revolving Balance**:
+  - The total revolving balance is generally higher in this cluster, with mean values around $1,867 for males in the `$120K+` category.
+  - For the `Less than $40K` category, mean revolving balances are approximately $1,919.
+
+### Conclusion
+- After reviewing the clusters, the decision is made to launch a `5% cashback to cluster number 0` since it is the cluster with the lowest average credit utilization.
+- `Cluster number 2 will be given 4%` since its credit utilization is very low with a maximum of 48%.
+- For `Cluster number 3, 3.5%` since it maintains an average utilization of the credit line of 12 to 39%.
+- While `Cluster number 1 will only be given 1%` since it has a greater use of the credit line, which overusing it could imply non-payment.
